@@ -1,6 +1,8 @@
 # ssh_manager      
 description: manager remote host login info   
 attention: before use s.sh , you should configure your remote host info into remote_host.cfg file  
+platform: it is wirte by shell, so you can run it on any platform which support shell(bash or sh),  
+the platform need install expect which is an open source software, too.   
 
 usage:  
    s.sh       to print all remote host info   
